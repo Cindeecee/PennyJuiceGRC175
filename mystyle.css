@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../IMAGES/Background-Image-Optimized.jpg");
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    }
+
+
+
+h1, h2, h3 {
+    margin: 0px; 
+    padding: 25px;
+    font-size: 18pt;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    margin: -25px;
+}
+
+h3 {
+    color: coral;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+blog {
+    float: left;
+    background-color: #eda172;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: floralwhite;
+    width: 93.3%;   
+}
+
+article h3 {
+    float: left;
+    width: 95%;
+    height: 200px;
+    
+}
+
+#container {
+    background-color: beige;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.header_image {
+    text-align: left;
+    padding: 10px
+}
+
+.content {
+    padding: 0;
+}
+
+.topnav {
+    width: 100%;
+    background-color: #9cce85;
+    line-height: 35px;
+    float: left
+}
+
+.topnav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none; 
+    font-size: 18pt;
+    float: left
+
+}
+
+.topnav ul {
+    float: left;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    font-family: arial;
+    color: aquamarine;
+    font-size: 14px;
+    padding: 24px 14px;
+    text-decoration: none;    
+
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border border-radius: 0px 0px 4px 4px;
+    z-index: 1000;
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #77c156;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+    
+}
+
+.topnav ul li ul li{
+    padding: 8px 14px;
+}
+
+.topnav ul li il li a {
+    border-radius: 4px;
+}
+
+.topnav ul li ul li {
+    background-color: #77c156
+}
+
+.slider_image {
+    width: 100%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: beige;
+    padding: 0px;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container1 > div {
+    color: coral;
+    width: 200px;
+    margin: 30px;
+    text-align: Center;
+    line-height: 30px;
+    font-size: 30px;    
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container2 > div {
+    background-color: antiquewhite;
+    color: coral;
+    width: 100%;
+    margin: 25px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px; 
+    padding-top: 30px;
+}
+
+.footer {
+    text-align: center;
+    
+}
+
+
+.flex-container3 {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    clear: both;    
+}
+
+.flex-container3 >div > li {
+    color: black;
+    
+}
+
+.flex-container3 >div > div> li {
+    color: black;
+    
+}
+
+.flex-container3 > div {
+    background-color: #eda172;
+    color: black;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+        
+}
+
+.flex-container3 > div > h1 {
+    background-color: #eda172;
+    color: white;
+    width: 85%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 25px;
+    padding-left:0px;
+    padding-bottom: 20px;
+        
+}
+
+.flex-container3 > div > h2 {
+    background-color: #eda172;
+    color: white;
+    width: 85%;
+    margin: 10px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 25px;
+    padding-left: 0px;
+    padding-bottom: 30px;       
+}
+
+.flex-container3 > div > div > h3 {
+    background-color: #eda172;
+    color: white;
+    width: 85%;
+    margin: 10px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 25px;
+    padding-left: 0px;
+    padding-bottom: 30px;       
+}
+
+.flex-container3 > div > div > h4 {
+    background-color: #eda172;
+    color: white;
+    width: 85%;
+    margin: 10px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 25px;
+    padding-left: 0px;
+    padding-bottom: 30px;       
+}
+
+.flex-container3 > div > div > h5 {
+    background-color: #eda172;
+    color: white;
+    width: 85%;
+    margin: 10px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 25px;
+    padding-left: 0px;
+    padding-bottom: 30px;       
+}
+
+.carousel-wrapper {
+    height: 400px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev {
+    left: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.arrow-next {
+    right: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg):
+}
+
+.light {
+    color: white;
+    
+}
+
+@media (max-width): 450px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+  }
+}
+
+/*select every element*/
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('https://static.pexels.com/photos/6526/sea-beach-holiday-vacation-large.jpg');
+    background-size: cover;
+}
+
+.item-2 {
+    background: url('https://static.pexels.com/photos/6506/alcohol-bar-drinks-party-large.jpg');
+    background-size: cover;
+}
+
+.item-3 {
+    background: url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
+    background-size: cover;
+}
+
+*:target - .item-1 {
+    opacity: 0;
+}
+
+#item-2: target - item-1 {
+    opacity: 1;
+}
+
+#item-2:target - .item-2, item-3:target - .item-3{
+    z-index: 3;
+    opacity: 1:
+   }
+}
+
+
+
+
+
+
+
+
+
